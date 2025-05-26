@@ -1,0 +1,24 @@
+{
+  "name": "wp-booster-lite",
+  "version": "0.1.0",
+  "description": "WordPress plugin for structured data and AI suggestions.",
+  "main": "build/admin.js",
+  "scripts": {
+    "build": "wp-scripts build src/admin-ui/index.js --output-path=build",
+    "start": "wp-scripts start src/admin-ui/index.js --output-path=build",
+    "lint:js": "wp-scripts lint-js src/**/*.js",
+    "format:js": "wp-scripts format src/**/*.js"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "structured-data",
+    "json-ld",
+    "ai"
+  ],
+  "author": "Your Name or Company",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.6.0"
+  }
+}
